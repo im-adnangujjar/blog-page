@@ -1,25 +1,29 @@
-import React from 'react'
-import styles from "../../../styles/Related.module.css"
+import React from "react";
+import styles from "../../../styles/Related.module.css";
+import Image from "next/image";
+import Link from "next/link";
 
-
- function Related({Card2}) {
-
+function Related({ Card2 }) {
   return (
     <div className={styles.mainContainer}>
-
-      <img className={styles.image} src={Card2.image} alt="image not found" />
-
+      <Link href={`/blog/${Card2.id}`}>
+        <Image
+          width="400px"
+          height="250px"
+          src={Card2.image}
+          alt="image not found"
+        />
+      </Link>
       <div className={styles.cardItem}>
         <h1 className={styles.dateHeading}>{Card2.date} </h1>
         <p className={styles.description}> {Card2.description}</p>
         <div className={styles.display}>
           <p className={styles.read}>{Card2.read}</p>
-          <img className={styles.icon} src={Card2.icon} alt="icon not found" />
+          <Image width= '20' height='20' src={Card2.icon} alt="icon not found" />
         </div>
-
       </div>
     </div>
-  )
+  );
 }
 
-export default Related
+export default Related;

@@ -1,11 +1,13 @@
 import React from 'react'
 import styles from "../../../styles/FirstSection.module.css";
-import { Cards } from '../../constant/Constant'
+import { cardData, allData } from '../../constant/Constant'
 import Card from "../card/Card"
-
+import Link from 'next/link';
+import Image from 'next/image'
 import { Grid } from '@mui/material';
 
 function FirstSection() {
+  let suggestedData = allData[allData?.length-1];
   return (
     <div>
      
@@ -13,12 +15,15 @@ function FirstSection() {
 <Grid container spacing={0}>
  <Grid item xs={12} sm={12} md={12} lg={6}>
       <div className={styles.itemPadding}>
-      <a href="/Details"><img className={styles.image} src={'/blog1.jpg'} alt='image not found'/></a>
-       <h1 className={styles.dateHeading}> February 22, 2022</h1>
-       <p className={styles.description}>The Ultimate Importance of Mobile App Architecture?</p>
+      <Link href={`/blog/${suggestedData.id}`}><Image  src={suggestedData.image}   width='100%' height='60px'layout="responsive" alt='image not found'/></Link>
+       <h1 className={styles.dateHeading}>{suggestedData.date}</h1>
+       <p className={styles.description}>{suggestedData.description}</p>
        <div className={styles.display1}>
-       <p className={styles.read}>READ ARTICLE </p>
-       <img className={styles.icon} src={"/right-arrow.png"} alt="image not found" />
+       <p className={styles.read}>{suggestedData.read}</p>
+       <div className={styles.icon}>
+      
+       <Image  width='20px' height='20px' src={suggestedData.icon} alt="image not found" />
+       </div>
        </div>
       
       </div>
@@ -27,9 +32,9 @@ function FirstSection() {
     <Grid item xs={12} sm={12} md={12} lg={6}>
       <Grid container spacing={0}>
         {
-          Cards.map((item, index) => {
+          allData?.slice(0, 3)?.map((item, index) => {
             return<Grid item xs={12} sm={6} md={4} lg={12} key={index}>
-             <Card Cards={item} />
+             <Card cardData={item} />
              </Grid>
           }
           )}

@@ -10,11 +10,6 @@ padding: 0px 25px;
 
 }
 
-.image {
-    width: 100%;
-    height: auto
-}
-
 .dateHeading {
     font-size: 14px;
     margin: 10px 0px 5px;
@@ -38,15 +33,10 @@ font-weight: 600px;
 .read{
     font-size: 14px;
     color:#6b717f;
-    margin: 0px 0px 5px;
+    margin: 0px 10px 0px 0px;
 }
 .display{
     display:flex;
     justify-content: start;
     align-items: center;
-}
-.icon{
-    width:20px;
-    height:20px;
-    margin-left:20px
 }
