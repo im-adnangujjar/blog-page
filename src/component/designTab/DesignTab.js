@@ -12,7 +12,7 @@ function DesignTab() {
       <Grid container spacing={0}>
         <Grid item xs={12} sm={12} md={12} lg={6}>
           <Image  width='800' height='500'src={"/design1.jpg"} alt="image not found" />
-          <h1 className={styles.dateHeading}>December 08, 2021</h1>
+          {/* <h1 className={styles.dateHeading}>December 08, 2021</h1> */}
 
           <p className={styles.description}>Designing the Best elearning Platform: Our Ergonomic Process That Converts</p>
           <div>

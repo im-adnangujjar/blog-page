@@ -17,7 +17,10 @@ function FirstSection() {
       <div className={styles.itemPadding}>
       <Link href={`/blog/${suggestedData.id}`}><Image  src={suggestedData.image}   width='100%' height='60px'layout="responsive" alt='image not found'/></Link>
        <h1 className={styles.dateHeading}>{suggestedData.date}</h1>
+       <div style={{display:'flex',alignItems:'flex-start',}}>
        <p className={styles.description}>{suggestedData.description}</p>
+       </div>
+
        <div className={styles.display1}>
        <p className={styles.read}>{suggestedData.read}</p>
        <div className={styles.icon}>

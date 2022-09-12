@@ -1,20 +1,3 @@
-.image{
-    width: 100%;
-    height: auto
-}
-
-.dateHeading {
-    font-size: 14px;
-    margin: 0px 0px 5px;
-    color: #858993;
-    margin-top: 20px;
-}
-@media screen and (max-width: 1235px) {
-    .dateHeading {
-        margin: 5px 0px ;
-    }
-}
-
 .description {
     font-size: 18px;
     font-weight: bold;
@@ -28,10 +11,26 @@
         font-size: 15px;
     }
 }
-
+.description::after{
+    content: '';
+    height: 2px ;
+    width:0%;
+    padding:1px;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out ;
+  }
+  .description:hover::after{
+    content: '';
+    height: 1px ;
+    width:100% ;
+    /* padding:2px; */
+    background-color: black;
+    display: block;
+  }
 .read {
     font-size: 14px;
-    color: #6b717f;
+    color: black;
 }
 
 .display1 {
@@ -45,10 +44,4 @@
     .display1 {
         margin: 0x 
     }
-}
-
-.icon {
-    width: 20px;
-    height: 20px;
-    margin-left: 20px;
 }

@@ -9,11 +9,11 @@
     }
 }
 
-.dateHeading {
+/* .dateHeading {
     font-size: 14px;
     margin: 10px 0px 5px;
     color: #858993
-}
+} */
 
 .description {
 
@@ -29,9 +29,26 @@
       
     }
 }
+  .description::after{
+    content: '';
+    height: 2px ;
+    width:0%;
+    padding:2px;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out ;
+  }
+  .description:hover::after{
+    content: '';
+    height: 2px ;
+    width:100% ;
+    padding:2px;
+    background-color: black;
+    display: block;
+  }
 .read {
     font-size: 14px;
-    color: #6b717f;
+    color:black;
     margin: 0px 0px 0px 0px;
 }
 

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../../../styles/Related.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import { shrinkText } from "../utils/shrinkText";
 
 function Related({ Card2 }) {
   return (
@@ -15,8 +16,8 @@ function Related({ Card2 }) {
         />
       </Link>
       <div className={styles.cardItem}>
-        <h1 className={styles.dateHeading}>{Card2.date} </h1>
-        <p className={styles.description}> {Card2.description}</p>
+        {/* <h1 className={styles.dateHeading}>{Card2.date} </h1> */}
+        <p className={styles.description}> {shrinkText(Card2.description,40)}</p>
         <div className={styles.display}>
           <p className={styles.read}>{Card2.read}</p>
           <Image width= '20' height='20' src={Card2.icon} alt="icon not found" />
