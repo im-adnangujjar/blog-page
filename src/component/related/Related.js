@@ -16,8 +16,19 @@ function Related({ Card2 }) {
         />
       </Link>
       <div className={styles.cardItem}>
-        {/* <h1 className={styles.dateHeading}>{Card2.date} </h1> */}
-        <p className={styles.description}> {shrinkText(Card2.description,40)}</p>
+      <div
+          style={{
+            display: "flex",
+            alignItems: "flex-start",
+            marginTop: "30px",
+          }}
+        >
+        <div className="link">
+
+        <spam className="underline"> {shrinkText(Card2.description,40)}</spam>
+        </div>
+        </div>
+
         <div className={styles.display}>
           <p className={styles.read}>{Card2.read}</p>
           <Image width= '20' height='20' src={Card2.icon} alt="icon not found" />

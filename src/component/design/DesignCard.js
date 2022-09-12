@@ -7,9 +7,8 @@ function DesignCard({ Design }) {
   return (
     <div className={styles.display}>
       <Link href={`/blog/${Design.id}`}>
-        <Image
-          width="300"
-          height="250"
+        <img
+          className={styles.image}
           src={Design.image}
           alt="image not found"
         />
