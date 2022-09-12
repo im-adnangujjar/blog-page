@@ -17,7 +17,7 @@ function FirstSection() {
               <Image
                 src={suggestedData.image}
                 width="100%"
-                height="60px"
+                height="65px"
                 layout="responsive"
                 alt="image not found"
               />

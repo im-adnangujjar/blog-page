@@ -8,9 +8,8 @@ function Card({ cardData }) {
   return (
     <div className={styles.display}>
       <Link href={`/blog/${cardData.id}`}>
-        <Image
-          width="300"
-          height="220"
+        <img 
+        className={styles.image}
           src={cardData.image}
           alt="image not found"
         />
