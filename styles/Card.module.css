@@ -21,6 +21,16 @@ height:160px
     }
     
 }
+.icon{
+    width:20px;
+    height:20px;
+    margin-left:10px;
+}
+.icon:hover{
+    transform: translateX(2px);
+    transition-delay: .5ms;
+    transition-property: all;
+}
 .cardItem {
 
     margin-left: 20px;
@@ -55,25 +65,8 @@ height:160px
         font-size: 15px;
     }
 }
-.description::after{
-    content: '';
-    height: 2px ;
-    width:0%;
-    padding:1px;
-    background-color: white;
-    display: block;
-    transition: .5s ease-in-out ;
-  }
-  .description:hover::after{
-    content: '';
-    height: 1px ;
-    width:auto ;
-    /* padding:2px; */
-    background-color: black;
-    display: block;
-  }
 .read {
-    font-size: 14px;
+    font-size: 12px;
     color:black;
     margin: 0px 10px 0px 0px;
 }

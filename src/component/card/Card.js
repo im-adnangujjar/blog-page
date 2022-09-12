@@ -23,9 +23,7 @@ function Card({ cardData }) {
           </div>
         <div className={styles.display1}>
           <p className="read">{cardData.read}</p>
-          <Image
-            width="20"
-            height="20"
+          <img className={styles.icon}
             src={cardData.icon}
             alt="icon not found"
           />

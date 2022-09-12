@@ -38,9 +38,8 @@ function FirstSection() {
             <div className={styles.display1}>
               <p className={styles.read}>{suggestedData.read}</p>
               <div className={styles.icon}>
-                <Image
-                  width="20px"
-                  height="20px"
+                <img
+               className={styles.icon}
                   src={suggestedData.icon}
                   alt="image not found"
                 />

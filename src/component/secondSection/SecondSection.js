@@ -17,7 +17,7 @@ function SecondSection() {
         })}
       </Grid>
       <div style={{display:'flex',justifyContent:'center',alignItems:'center',marginTop:'50px'}}>
-        <Button title="SHOW MORE ARTICLES" />
+        <Button title="SHOW MORE" />
       </div>
     </div>
   );

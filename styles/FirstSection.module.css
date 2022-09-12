@@ -31,8 +31,8 @@
 }
 
 .read {
-    font-size: 14px;
-    color: #6b717f;
+    font-size: 12px;
+    color: black;
 }
 
 .display {
@@ -63,7 +63,13 @@
     }
 }
 
-.icon {
-    margin-top:30 ;
-    margin-left: 20px;
+.icon{
+    width:20px;
+    height:20px;
+    margin-left:10px;
+}
+.icon:hover{
+    transform: translateX(2px);
+    transition-delay: .5ms;
+    transition-property: all;
 }

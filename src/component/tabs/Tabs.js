@@ -57,15 +57,19 @@ export default function BasicTabs() {
       <div className={styles.scroll}>
 
           <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-            <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-              <Tab label="  All posts" {...a11yProps(0)} />
+            <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" TabIndicatorProps={{
+              style: {
+                // display: 'none';
+                backgroundColor:'blue'
+              }
+            }} >
+              <Tab label=" All posts" {...a11yProps(0)}/>
               <Tab label="Design" {...a11yProps(1)} />
               <Tab label="Healthcare" {...a11yProps(2)} />
               <Tab label="Startups" {...a11yProps(3)} />
               <Tab label="Mobile" {...a11yProps(4)} />
               <Tab label="Cybersecurity" {...a11yProps(5)} />
               <Tab label="Blockchain" {...a11yProps(6)} />
-
               <Tab label="Healthcare" {...a11yProps(7)} />
               <Tab label="Ed-tech" {...a11yProps(8)} />
             </Tabs>

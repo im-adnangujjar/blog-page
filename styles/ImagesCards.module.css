@@ -25,7 +25,7 @@
   transition: transform 0.2s;
 }
 .image:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 
 
@@ -33,4 +33,14 @@
   display: flex;
   justify-content: start;
   align-items: center;
+}
+.icon{
+  width:20px;
+  height:20px;
+  margin-left:10px;
+}
+.icon:hover{
+  transform: translateX(2px);
+  transition-delay: .5ms;
+  transition-property: all;
 }
