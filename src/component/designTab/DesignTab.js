@@ -1,28 +1,40 @@
-import React from 'react'
-import { Design , Card2, allData} from "../../constant/Constant"
-import { Grid } from '@mui/material'
+import React from "react";
+import { Design, Card2, allData } from "../../constant/Constant";
+import { Grid } from "@mui/material";
 import styles from "../../../styles/DesignTab.module.css";
-import Related from '../related/Related';
-import DesignCard from '../design/DesignCard'
-import Image from 'next/image';
+import Related from "../related/Related";
+import DesignCard from "../design/DesignCard";
+import Image from "next/image";
 
 function DesignTab() {
+  let suggestedData = allData[allData?.length-5];
   return (
     <div>
       <Grid container spacing={0}>
         <Grid item xs={12} sm={12} md={12} lg={6}>
-          <Image  width='800' height='500'src={"/design1.jpg"} alt="image not found" />
+          <Image
+            width="800"
+            height="500"
+            src={"/design1.jpg"}
+            alt="image not found"
+          />
           {/* <h1 className={styles.dateHeading}>December 08, 2021</h1> */}
 
-          <p className={styles.description}>Designing the Best elearning Platform: Our Ergonomic Process That Converts</p>
-          <div>
-            <div className={styles.display1}>
-              <p className={styles.read}>READ ARTICLE </p>
-              <Image width='20' height='20' la src={"/right-arrow.png"} alt="image not found" />
-            </div>
+          <div style={{ display: "flex", alignItems: "flex-start",marginTop:'30px' }}>
+            <p className={styles.description}>{suggestedData.description}</p>
           </div>
 
-
+          <div className={styles.display1}>
+            <p className={styles.read}>{suggestedData.read}</p>
+            <div className={styles.icon}>
+              <Image
+                width="20px"
+                height="20px"
+                src={suggestedData.icon}
+                alt="image not found"
+              />
+            </div>
+          </div>
         </Grid>
         <Grid item xs={12} sm={12} md={12} lg={6}>
           <Grid container spacing={0}>
@@ -46,9 +58,8 @@ function DesignTab() {
           })
         }
       </Grid>
-
     </div>
-  )
+  );
 }
 
-export default DesignTab
+export default DesignTab;

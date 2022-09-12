@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import styles from "../../styles/Details.module.css";
 import { allData } from "../../src/constant/Constant";
 import Button from "../../src/component/button/Button";
-import  {shrinkText} from "../../src/component/utils/shrinkText";
+import { shrinkText } from "../../src/component/utils/shrinkText";
 import { Grid } from "@mui/material";
 import Link from "next/link";
 import Image from "next/image";
@@ -12,17 +12,21 @@ function AllDetails() {
   const router = useRouter();
 
   const { blogId } = router.query;
-  const data = allData?.filter(
-    (item, index) => item.id == blogId
-  )[0];
-  console.log('data',data);
+  const data = allData?.filter((item, index) => item.id == blogId)[0];
+  console.log("data", data);
 
-  
   return (
     <div>
       <div>
         <Grid container spacing={2} alignItems="center">
-          <Grid style={{padding:'16px 0px'}} item xs={12} sm={12} md={6} lg={6}>
+          <Grid
+            style={{ padding: "16px 0px" }}
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            lg={6}
+          >
             <Image
               width="700"
               height="450"
@@ -30,21 +34,21 @@ function AllDetails() {
               alt="image not found"
             />
           </Grid>
-          <Grid style={{padding:'50px'}} item xs={12} sm={12} md={6} lg={6}>
+          <Grid style={{ padding: "55px" }} item xs={12} sm={12} md={6} lg={6}>
             <p className={styles.description}>{data?.description}</p>
           </Grid>
         </Grid>
       </div>
       <Grid container spacing={2}>
-        <Grid  item xs={12} sm={12} md={7} lg={7} xl={8}>
+        <Grid item xs={12} sm={12} md={7} lg={7} xl={8}>
           <div className={styles.itemMargin}>
             <p className={styles.paragraph}>{data?.paragraph}</p>
             <p className={styles.paragraph}>{data?.paragraph1}</p>
             <div>
               {data?.image1 ? (
                 <Image
-                width='500'
-                height='400'
+                  width="500"
+                  height="400"
                   src={data?.image1}
                   alt="image not found"
                 />
@@ -89,7 +93,7 @@ function AllDetails() {
                     "We develop your project and turn it into a completed product"
                   }
                 </p>
-                <Button title='SEND US REQUEST' color='black' />
+                <Button title="SEND US REQUEST" color="black" />
                 {/* <CommonButton title='SEND US REQUEST' ctaHandler={function (): void {
           throw new Error('Function not implemented.');
         } } Request={undefined} /> */}
@@ -125,40 +129,50 @@ function AllDetails() {
           </div>
         </Grid>
       </Grid>
-      <div className={styles.data_margin}>
+      <div className={styles.container}>
         <h1 className={styles.heading}>Related Articles</h1>
-        <Grid container spacing={6}>
-          {data['data2']?.map((item, index) => {
-            return (
-              <Grid item xs={12} sm={6} md={4} lg={4} key={index}>
-                <div className={styles.subDiv}>
-                  <Link className href={`/blog/${item.id}`}>
-                    <Image
-                      src={item?.img}
-                      width="100%"
-                      height="60px"
-                      layout="responsive"
-                      alt="image not found"
-                    />
-                  </Link>
-                  {/* <h1 className={styles.dateHeading}>{item.date}</h1> */}
-                  <div style={{display:'flex',alignItems:'flex-start'}}>
-                  <p className={styles.par_description}>{shrinkText(item?.description,50)}</p>
+        <div className={styles.subContainer}>
+          <Grid container margin='0px' spacing={0} >
+            {data["data2"]?.map((item, index) => {
+              return (
+                <Grid item xs={12} sm={6} md={4} lg={4}  key={index}>
+                  <div className={styles.subDiv}>
+                    <Link className href={`/blog/${item.id}`}>
+                      <img
+                        className={styles.image}
+                        src={item?.img}
+                        alt="image not found"
+                      />
+                    </Link>
+                    {/* <h1 className={styles.dateHeading}>{item.date}</h1> */}
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "flex-start",
+                        marginTop: "30px",
+                      }}
+                    >
+                      <div className="link">
+                        <span className="underline">
+                          {shrinkText(item.description, 50)}
+                        </span>
+                      </div>
+                    </div>
+                    <div className={styles.display}>
+                      <p className={styles.read}>{item.read}</p>
+                      <Image
+                        src={"/right-arrow.png"}
+                        width="20px"
+                        height="20px"
+                        alt="icon is not found"
+                      />
+                    </div>
                   </div>
-                  <div className={styles.display}>
-                    <p className={styles.read}>{item.read}</p>
-                    <Image
-                      src={"/right-arrow.png"}
-                      width="20px"
-                      height="20px"
-                      alt="icon is not found"
-                    />
-                  </div>
-                </div>
-              </Grid>
-            );
-          })}
-        </Grid>
+                </Grid>
+              );
+            })}
+          </Grid>
+        </div>
       </div>
     </div>
   );
