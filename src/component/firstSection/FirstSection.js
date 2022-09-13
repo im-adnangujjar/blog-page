@@ -36,7 +36,7 @@ function FirstSection() {
             </div>
 
             <div className={styles.display1}>
-              <p className={styles.read}>{suggestedData.read}</p>
+              <p className="read">{suggestedData.read}</p>
               <div className={styles.icon}>
                 <img
                className={styles.icon}

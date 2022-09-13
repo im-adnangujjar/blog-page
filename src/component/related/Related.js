@@ -30,7 +30,7 @@ function Related({ Card2 }) {
         </div>
 
         <div className={styles.display}>
-          <p className={styles.read}>{Card2.read}</p>
+          <p className="read">{Card2.read}</p>
           <Image width= '20' height='20' src={Card2.icon} alt="icon not found" />
         </div>
       </div>

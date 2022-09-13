@@ -18,7 +18,7 @@ function DesignCard({ Design }) {
           <span className="underline">{Design.description}</span>
         </div>
         <div className={styles.display1}>
-          <p className={styles.read}>{Design.read}</p>
+          <p className="read">{Design.read}</p>
           <Image
             width="20"
             height="20"

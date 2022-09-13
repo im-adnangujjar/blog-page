@@ -13,7 +13,8 @@ body {
   }
   .read {
     color:black;
-    font-size: 14px;
+    font-size: 12px;
+    margin:0px 10px 0px 0px ;
   }
 
   .underline {

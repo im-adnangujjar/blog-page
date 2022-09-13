@@ -1047,16 +1047,73 @@ export const allData = [
     image: "/design4.jpg",
     title: "Design",
     date: "April 1, 2020",
-    description: "UX vs UI Design. Pro Tips On Building Great User Experience for Your App",
+    description:
+      "UX vs UI Design. Pro Tips On Building Great User Experience for Your App",
     id: Math.round(Math.random() * 10078900),
-    paragraph:"The use of cloud automation and orchestration tools for business processes will provide your business with a lot of competitive advantages, such as lower costs, increased productivity, and, ultimately, a great prospect for further business scaling. ",
+    paragraph:
+      "The use of cloud automation and orchestration tools for business processes will provide your business with a lot of competitive advantages, such as lower costs, increased productivity, and, ultimately, a great prospect for further business scaling. ",
     paragraph1: "Cloud Automation Tools",
-    paragraph2:"The use of a cloud guarantees consumers sufficient computing power and great functionality at the right time, while the cloud pool of cloud testing automation tools is very abstracted from the user.",
+    paragraph2:
+      "The use of a cloud guarantees consumers sufficient computing power and great functionality at the right time, while the cloud pool of cloud testing automation tools is very abstracted from the user.",
     heading1: "Business Benefits of Cloud Computing .",
-    paragraph4: "It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.",
-    paragraph5: "“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.”",
+    paragraph4:
+      "It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.",
+    paragraph5:
+      "“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.”",
     paragraph6: "💬 Denis Gomes Iljazi, Co-Owner of Axisbits",
-    paragraph7:"We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.",
+    paragraph7:
+      "We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.",
+    icon: "/right-arrow.png",
+    read: "READ ARTICLE ",
+    data2: [
+      {
+        img: "/blog14.jpg",
+        date: "january 11, 2022",
+        description: "Top Elearning Solutions in 2022",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog15.jpg",
+        date: "january 6, 2022",
+        description: "Benefits of Laravel Single-Page Apps & Vue Crud  ",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog16.jpg",
+        date: "january 4, 2022",
+        description:
+          "Top Business Technology Solutions to Impact Growth Through 2022​",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+    ],
+  },
+  {
+    image: "/thumb500.jpeg",
+    date: "February 22, 2022",
+    description: "The Ultimate Importance of Mobile App Architecture?",
+    read: "READ ARTICLE ",
+    icon: "/right-arrow.png",
+    id: Math.round(Math.random() * 10078900),
+
+    paragraph:
+      "The use of cloud automation and orchestration tools for business processes will provide your business with a lot of competitive advantages, such as lower costs, increased productivity, and, ultimately, a great prospect for further business scaling. ",
+    paragraph1: "Cloud Automation Tools",
+    paragraph2:
+      "The use of a cloud guarantees consumers sufficient computing power and great functionality at the right time, while the cloud pool of cloud testing automation tools is very abstracted from the user.",
+    heading1: "Business Benefits of Cloud Computing .",
+    paragraph4:
+      "It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.",
+    paragraph5:
+      "“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.”",
+    paragraph6: "💬 Denis Gomes Iljazi, Co-Owner of Axisbits",
+    paragraph7:
+      "We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.",
     icon: "/right-arrow.png",
     read: "READ ARTICLE ",
     data2: [
@@ -1138,4 +1195,515 @@ export const allData = [
       },
     ],
   },
+  {
+    image: "/thumb501.jpg",
+    date: "February 22, 2022",
+    description: "The Ultimate Importance of Mobile App Architecture?",
+    read: "READ ARTICLE ",
+    icon: "/right-arrow.png",
+    id: Math.round(Math.random() * 10078900),
+
+    paragraph:
+      "The use of cloud automation and orchestration tools for business processes will provide your business with a lot of competitive advantages, such as lower costs, increased productivity, and, ultimately, a great prospect for further business scaling. ",
+    paragraph1: "Cloud Automation Tools",
+    paragraph2:
+      "The use of a cloud guarantees consumers sufficient computing power and great functionality at the right time, while the cloud pool of cloud testing automation tools is very abstracted from the user.",
+    heading1: "Business Benefits of Cloud Computing .",
+    paragraph4:
+      "It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.",
+    paragraph5:
+      "“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.”",
+    paragraph6: "💬 Denis Gomes Iljazi, Co-Owner of Axisbits",
+    paragraph7:
+      "We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.",
+    icon: "/right-arrow.png",
+    read: "READ ARTICLE ",
+    data2: [
+      {
+        img: "/blog14.jpg",
+        date: "january 11, 2022",
+        description: "Top Elearning Solutions in 2022",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog15.jpg",
+        date: "january 6, 2022",
+        description: "Benefits of Laravel Single-Page Apps & Vue Crud  ",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog16.jpg",
+        date: "january 4, 2022",
+        description:
+          "Top Business Technology Solutions to Impact Growth Through 2022​",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+    ],
+  },
+  {
+    image: "/thumb502.jpg",
+    date: "February 22, 2022",
+    description: "The Ultimate Importance of Mobile App Architecture?",
+    read: "READ ARTICLE ",
+    icon: "/right-arrow.png",
+    id: Math.round(Math.random() * 10078900),
+
+    paragraph:
+      "The use of cloud automation and orchestration tools for business processes will provide your business with a lot of competitive advantages, such as lower costs, increased productivity, and, ultimately, a great prospect for further business scaling. ",
+    paragraph1: "Cloud Automation Tools",
+    paragraph2:
+      "The use of a cloud guarantees consumers sufficient computing power and great functionality at the right time, while the cloud pool of cloud testing automation tools is very abstracted from the user.",
+    heading1: "Business Benefits of Cloud Computing .",
+    paragraph4:
+      "It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.",
+    paragraph5:
+      "“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.”",
+    paragraph6: "💬 Denis Gomes Iljazi, Co-Owner of Axisbits",
+    paragraph7:
+      "We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.",
+    icon: "/right-arrow.png",
+    read: "READ ARTICLE ",
+    data2: [
+      {
+        img: "/blog14.jpg",
+        date: "january 11, 2022",
+        description: "Top Elearning Solutions in 2022",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog15.jpg",
+        date: "january 6, 2022",
+        description: "Benefits of Laravel Single-Page Apps & Vue Crud  ",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog16.jpg",
+        date: "january 4, 2022",
+        description:
+          "Top Business Technology Solutions to Impact Growth Through 2022​",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+    ],
+  },
+  {
+    image: "/thumb503.jpg",
+    date: "February 22, 2022",
+    description: "The Ultimate Importance of Mobile App Architecture?",
+    read: "READ ARTICLE ",
+    icon: "/right-arrow.png",
+    id: Math.round(Math.random() * 10078900),
+
+    paragraph:
+      "The use of cloud automation and orchestration tools for business processes will provide your business with a lot of competitive advantages, such as lower costs, increased productivity, and, ultimately, a great prospect for further business scaling. ",
+    paragraph1: "Cloud Automation Tools",
+    paragraph2:
+      "The use of a cloud guarantees consumers sufficient computing power and great functionality at the right time, while the cloud pool of cloud testing automation tools is very abstracted from the user.",
+    heading1: "Business Benefits of Cloud Computing .",
+    paragraph4:
+      "It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.",
+    paragraph5:
+      "“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.”",
+    paragraph6: "💬 Denis Gomes Iljazi, Co-Owner of Axisbits",
+    paragraph7:
+      "We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.",
+    icon: "/right-arrow.png",
+    read: "READ ARTICLE ",
+    data2: [
+      {
+        img: "/blog14.jpg",
+        date: "january 11, 2022",
+        description: "Top Elearning Solutions in 2022",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog15.jpg",
+        date: "january 6, 2022",
+        description: "Benefits of Laravel Single-Page Apps & Vue Crud  ",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog16.jpg",
+        date: "january 4, 2022",
+        description:
+          "Top Business Technology Solutions to Impact Growth Through 2022​",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+    ],
+  },
+  {
+    image: "/thumb504.jpg",
+    date: "February 22, 2022",
+    description: "The Ultimate Importance of Mobile App Architecture?",
+    read: "READ ARTICLE ",
+    icon: "/right-arrow.png",
+    id: Math.round(Math.random() * 10078900),
+
+    paragraph:
+      "The use of cloud automation and orchestration tools for business processes will provide your business with a lot of competitive advantages, such as lower costs, increased productivity, and, ultimately, a great prospect for further business scaling. ",
+    paragraph1: "Cloud Automation Tools",
+    paragraph2:
+      "The use of a cloud guarantees consumers sufficient computing power and great functionality at the right time, while the cloud pool of cloud testing automation tools is very abstracted from the user.",
+    heading1: "Business Benefits of Cloud Computing .",
+    paragraph4:
+      "It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.",
+    paragraph5:
+      "“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.”",
+    paragraph6: "💬 Denis Gomes Iljazi, Co-Owner of Axisbits",
+    paragraph7:
+      "We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.",
+    icon: "/right-arrow.png",
+    read: "READ ARTICLE ",
+    data2: [
+      {
+        img: "/blog14.jpg",
+        date: "january 11, 2022",
+        description: "Top Elearning Solutions in 2022",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog15.jpg",
+        date: "january 6, 2022",
+        description: "Benefits of Laravel Single-Page Apps & Vue Crud  ",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog16.jpg",
+        date: "january 4, 2022",
+        description:
+          "Top Business Technology Solutions to Impact Growth Through 2022​",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+    ],
+  },
+  {
+    image: "/thumb505.jpg",
+    date: "February 22, 2022",
+    description: "The Ultimate Importance of Mobile App Architecture?",
+    read: "READ ARTICLE ",
+    icon: "/right-arrow.png",
+    id: Math.round(Math.random() * 10078900),
+
+    paragraph:
+      "The use of cloud automation and orchestration tools for business processes will provide your business with a lot of competitive advantages, such as lower costs, increased productivity, and, ultimately, a great prospect for further business scaling. ",
+    paragraph1: "Cloud Automation Tools",
+    paragraph2:
+      "The use of a cloud guarantees consumers sufficient computing power and great functionality at the right time, while the cloud pool of cloud testing automation tools is very abstracted from the user.",
+    heading1: "Business Benefits of Cloud Computing .",
+    paragraph4:
+      "It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.",
+    paragraph5:
+      "“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.”",
+    paragraph6: "💬 Denis Gomes Iljazi, Co-Owner of Axisbits",
+    paragraph7:
+      "We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.",
+    icon: "/right-arrow.png",
+    read: "READ ARTICLE ",
+    data2: [
+      {
+        img: "/blog14.jpg",
+        date: "january 11, 2022",
+        description: "Top Elearning Solutions in 2022",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog15.jpg",
+        date: "january 6, 2022",
+        description: "Benefits of Laravel Single-Page Apps & Vue Crud  ",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog16.jpg",
+        date: "january 4, 2022",
+        description:
+          "Top Business Technology Solutions to Impact Growth Through 2022​",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+    ],
+  },
+  {
+    image: "/thumb506.jpg",
+    date: "February 22, 2022",
+    description: "The Ultimate Importance of Mobile App Architecture?",
+    read: "READ ARTICLE ",
+    icon: "/right-arrow.png",
+    id: Math.round(Math.random() * 10078900),
+
+    paragraph:
+      "The use of cloud automation and orchestration tools for business processes will provide your business with a lot of competitive advantages, such as lower costs, increased productivity, and, ultimately, a great prospect for further business scaling. ",
+    paragraph1: "Cloud Automation Tools",
+    paragraph2:
+      "The use of a cloud guarantees consumers sufficient computing power and great functionality at the right time, while the cloud pool of cloud testing automation tools is very abstracted from the user.",
+    heading1: "Business Benefits of Cloud Computing .",
+    paragraph4:
+      "It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.",
+    paragraph5:
+      "“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.”",
+    paragraph6: "💬 Denis Gomes Iljazi, Co-Owner of Axisbits",
+    paragraph7:
+      "We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.",
+    icon: "/right-arrow.png",
+    read: "READ ARTICLE ",
+    data2: [
+      {
+        img: "/blog14.jpg",
+        date: "january 11, 2022",
+        description: "Top Elearning Solutions in 2022",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog15.jpg",
+        date: "january 6, 2022",
+        description: "Benefits of Laravel Single-Page Apps & Vue Crud  ",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog16.jpg",
+        date: "january 4, 2022",
+        description:
+          "Top Business Technology Solutions to Impact Growth Through 2022​",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+    ],
+  },
+  {
+    image: "/thumb507.jpg",
+    date: "February 22, 2022",
+    description: "The Ultimate Importance of Mobile App Architecture?",
+    read: "READ ARTICLE ",
+    icon: "/right-arrow.png",
+    id: Math.round(Math.random() * 10078900),
+
+    paragraph:
+      "The use of cloud automation and orchestration tools for business processes will provide your business with a lot of competitive advantages, such as lower costs, increased productivity, and, ultimately, a great prospect for further business scaling. ",
+    paragraph1: "Cloud Automation Tools",
+    paragraph2:
+      "The use of a cloud guarantees consumers sufficient computing power and great functionality at the right time, while the cloud pool of cloud testing automation tools is very abstracted from the user.",
+    heading1: "Business Benefits of Cloud Computing .",
+    paragraph4:
+      "It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.",
+    paragraph5:
+      "“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.”",
+    paragraph6: "💬 Denis Gomes Iljazi, Co-Owner of Axisbits",
+    paragraph7:
+      "We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.",
+    icon: "/right-arrow.png",
+    read: "READ ARTICLE ",
+    data2: [
+      {
+        img: "/blog14.jpg",
+        date: "january 11, 2022",
+        description: "Top Elearning Solutions in 2022",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog15.jpg",
+        date: "january 6, 2022",
+        description: "Benefits of Laravel Single-Page Apps & Vue Crud  ",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog16.jpg",
+        date: "january 4, 2022",
+        description:
+          "Top Business Technology Solutions to Impact Growth Through 2022​",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+    ],
+  },
+  {
+    image: "/thumb508.jpg",
+    date: "February 22, 2022",
+    description: "The Ultimate Importance of Mobile App Architecture?",
+    read: "READ ARTICLE ",
+    icon: "/right-arrow.png",
+    id: Math.round(Math.random() * 10078900),
+
+    paragraph:
+      "The use of cloud automation and orchestration tools for business processes will provide your business with a lot of competitive advantages, such as lower costs, increased productivity, and, ultimately, a great prospect for further business scaling. ",
+    paragraph1: "Cloud Automation Tools",
+    paragraph2:
+      "The use of a cloud guarantees consumers sufficient computing power and great functionality at the right time, while the cloud pool of cloud testing automation tools is very abstracted from the user.",
+    heading1: "Business Benefits of Cloud Computing .",
+    paragraph4:
+      "It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.",
+    paragraph5:
+      "“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.”",
+    paragraph6: "💬 Denis Gomes Iljazi, Co-Owner of Axisbits",
+    paragraph7:
+      "We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.",
+    icon: "/right-arrow.png",
+    read: "READ ARTICLE ",
+    data2: [
+      {
+        img: "/blog14.jpg",
+        date: "january 11, 2022",
+        description: "Top Elearning Solutions in 2022",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog15.jpg",
+        date: "january 6, 2022",
+        description: "Benefits of Laravel Single-Page Apps & Vue Crud  ",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog16.jpg",
+        date: "january 4, 2022",
+        description:
+          "Top Business Technology Solutions to Impact Growth Through 2022​",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+    ],
+  },
+  {
+    image: "/thumb501.jpg",
+    date: "February 22, 2022",
+    description: "The Ultimate Importance of Mobile App Architecture?",
+    read: "READ ARTICLE ",
+    icon: "/right-arrow.png",
+    id: Math.round(Math.random() * 10078900),
+
+    paragraph:
+      "The use of cloud automation and orchestration tools for business processes will provide your business with a lot of competitive advantages, such as lower costs, increased productivity, and, ultimately, a great prospect for further business scaling. ",
+    paragraph1: "Cloud Automation Tools",
+    paragraph2:
+      "The use of a cloud guarantees consumers sufficient computing power and great functionality at the right time, while the cloud pool of cloud testing automation tools is very abstracted from the user.",
+    heading1: "Business Benefits of Cloud Computing .",
+    paragraph4:
+      "It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.",
+    paragraph5:
+      "“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.”",
+    paragraph6: "💬 Denis Gomes Iljazi, Co-Owner of Axisbits",
+    paragraph7:
+      "We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.",
+    icon: "/right-arrow.png",
+    read: "READ ARTICLE ",
+    data2: [
+      {
+        img: "/blog14.jpg",
+        date: "january 11, 2022",
+        description: "Top Elearning Solutions in 2022",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog15.jpg",
+        date: "january 6, 2022",
+        description: "Benefits of Laravel Single-Page Apps & Vue Crud  ",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog16.jpg",
+        date: "january 4, 2022",
+        description:
+          "Top Business Technology Solutions to Impact Growth Through 2022​",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+    ],
+  },
+  {
+    image: "/thumb509.jpg",
+    date: "February 22, 2022",
+    description: "The Ultimate Importance of Mobile App Architecture?",
+    read: "READ ARTICLE ",
+    icon: "/right-arrow.png",
+    id: Math.round(Math.random() * 10078900),
+
+    paragraph:
+      "The use of cloud automation and orchestration tools for business processes will provide your business with a lot of competitive advantages, such as lower costs, increased productivity, and, ultimately, a great prospect for further business scaling. ",
+    paragraph1: "Cloud Automation Tools",
+    paragraph2:
+      "The use of a cloud guarantees consumers sufficient computing power and great functionality at the right time, while the cloud pool of cloud testing automation tools is very abstracted from the user.",
+    heading1: "Business Benefits of Cloud Computing .",
+    paragraph4:
+      "It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.",
+    paragraph5:
+      "“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.”",
+    paragraph6: "💬 Denis Gomes Iljazi, Co-Owner of Axisbits",
+    paragraph7:
+      "We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.",
+    icon: "/right-arrow.png",
+    read: "READ ARTICLE ",
+    data2: [
+      {
+        img: "/blog14.jpg",
+        date: "january 11, 2022",
+        description: "Top Elearning Solutions in 2022",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog15.jpg",
+        date: "january 6, 2022",
+        description: "Benefits of Laravel Single-Page Apps & Vue Crud  ",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+      {
+        img: "/blog16.jpg",
+        date: "january 4, 2022",
+        description:
+          "Top Business Technology Solutions to Impact Growth Through 2022​",
+        read: "READ ARTICLE ",
+        icon: "/right-arrow.png",
+        id: Math.round(Math.random() * 10078900),
+      },
+    ],
+  },
+   
 ];

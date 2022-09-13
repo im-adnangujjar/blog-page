@@ -6,19 +6,18 @@ import Image from "next/image";
 
 function Card({ cardData }) {
   return (
+    <Link className={styles.move} href={`/blog/${cardData.id}`}>
     <div className={styles.display}>
-      <Link href={`/blog/${cardData.id}`}>
         <img 
         className={styles.image}
           src={cardData.image}
           alt="image not found"
         />
-      </Link>
       <div className={styles.cardItem}>
         {/* <h1 className={styles.dateHeading}>{cardData.date} </h1> */}
         <div style={{ display: "flex", alignItems: "flex-start" ,marginTop:'30px' }}>
         <div className="link">
-            <span className="underline"> {shrinkText(cardData.description, 35)}  </span>
+            <span className="underline"> {cardData.description}  </span>
           </div>
           </div>
         <div className={styles.display1}>
@@ -30,6 +29,8 @@ function Card({ cardData }) {
         </div>
       </div>
     </div>
+    </Link>
+
   );
 }
 

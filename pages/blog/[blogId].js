@@ -17,8 +17,8 @@ function AllDetails() {
 
   return (
     <div>
-      <div>
-        <Grid container spacing={2} alignItems="center">
+      <div className={styles.container}>
+        <Grid container spacing={0} alignItems="center" width='90%'>
           <Grid
             style={{ padding: "16px 0px" }}
             item
@@ -34,7 +34,7 @@ function AllDetails() {
               alt="image not found"
             />
           </Grid>
-          <Grid style={{ padding: "55px" }} item xs={12} sm={12} md={6} lg={6}>
+          <Grid style={{ paddingLeft:"55px", backgroundColor:"#f8f9fb", }} item xs={12} sm={12} md={6} lg={6}>
             <p className={styles.description}>{data?.description}</p>
           </Grid>
         </Grid>
@@ -159,7 +159,7 @@ function AllDetails() {
                       </div>
                     </div>
                     <div className={styles.display}>
-                      <p className={styles.read}>{item.read}</p>
+                      <p className="read">{item.read}</p>
                       <Image
                         src={"/right-arrow.png"}
                         width="20px"

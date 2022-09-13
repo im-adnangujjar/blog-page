@@ -2,7 +2,9 @@
     display: flex;
     justify-content: start;
     padding: 0px 25px 25px;
-    margin: 0px 0px 25px
+    margin: 0px 0px 25px;
+    cursor: pointer;
+
 }
 @media screen and (max-width: 1235px) {
     .display {
@@ -10,6 +12,7 @@
         padding: 0px 20px 25px
     }
 }
+
 .image{
 width:200px;
 height:160px
@@ -65,12 +68,6 @@ height:160px
         font-size: 15px;
     }
 }
-.read {
-    font-size: 12px;
-    color:black;
-    margin: 0px 10px 0px 0px;
-}
-
 .display1 {
     display: flex;
     justify-content: start;
