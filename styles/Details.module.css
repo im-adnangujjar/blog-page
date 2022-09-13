@@ -237,6 +237,7 @@
 .display {
   display: flex;
   align-items: center;
+  margin-top:20px;
 }
 .read {
   font-size: 14px;
