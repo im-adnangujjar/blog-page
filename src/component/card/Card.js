@@ -15,7 +15,7 @@ function Card({ cardData }) {
         />
       <div className={styles.cardItem}>
         {/* <h1 className={styles.dateHeading}>{cardData.date} </h1> */}
-        <div style={{ display: "flex", alignItems: "flex-start" ,marginTop:'30px' }}>
+        <div style={{ display: "flex", alignItems: "flex-start", }}>
         <div className="link">
             <span className="underline"> {cardData.description}  </span>
           </div>
